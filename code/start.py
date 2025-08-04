@@ -1,5 +1,6 @@
 from time import sleep
 from opt1 import scan
+from functions import choices as options
 print("SYSTEM STATUS: BOOT COMPLETE.")
 print("Welcome, Prompt Engineer #404.")
 sleep(1)
@@ -22,15 +23,7 @@ sleep(1)
 print("2. introduce yourself to the nearest lifeform")
 sleep(1)
 print("3. build sentient toaster first, THEN assess situation")
-choice = None
-while choice not in [1, 2, 3]:
-    sleep(1)
-    try:
-        print("enter a number between 1-3")
-        choice = int(input("What's your choice, brave adventurer? (1–3): "))
-    except ValueError:
-        print("Please do not enter a number with a decimal point")
-
+choice = options(3)
 if choice == 1:
     scan()
 if choice == 2:

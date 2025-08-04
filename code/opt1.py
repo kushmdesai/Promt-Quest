@@ -1,5 +1,6 @@
 from time import sleep
 from functions import clear_terminal
+from functions import choices as options
 def scan():
     clear_terminal()
     print("KNIGHT.GPT: ⚠️ ALERT! Threat detected: User identified as “Primary Source of System Instability.”")
@@ -24,18 +25,10 @@ def scan():
     print("")
     print("Shall You  ")
     sleep(1)
-    print("1. Calm it down with a joke?  ")
+    print("1. Calm the AI down with a joke?  ")
     sleep(1)
-    print("2. Attempt to reprogram it.  ")
-    choice = None
-    while choice not in [1, 2]:
-        sleep(1)
-        try:
-            print("enter a number between 1-2")
-            choice = int(input("What's your choice, brave adventurer? (1–2): "))
-        except ValueError:
-            print("Please do not enter a number with a decimal point")
-
+    print("2. Attempt to reprogram the Ai.  ")
+    choice = options(2)
     if choice == 1:
         choice = 1
     if choice == 2:
