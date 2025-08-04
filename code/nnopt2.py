@@ -2,8 +2,6 @@ from time import sleep
 from functions import clear_terminal, theEnd
 def lose():
     clear_terminal()
-    print("→ Risk: AI triggers emergency protocols")
-    sleep(1)
     print("")
     print("You try to be gentle. A simple shutdown -h now.")
     print("")

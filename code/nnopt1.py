@@ -5,11 +5,6 @@ from opt2 import introduce
 from opt3 import  prot
 def win():
     clear_terminal()
-    print("(Flooding with endless bug fixes")
-    sleep(1)
-    print("→ Risk: Overload your system")
-    print("")
-    sleep(1)
     print("You open 42 tabs of Stack Overflow and copy-paste like a speed demon.")
     sleep(1)
     print("Lines of hastily written patches rain down on KNIGHT.GPT’s core.")

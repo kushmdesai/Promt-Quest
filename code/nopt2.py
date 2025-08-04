@@ -36,7 +36,7 @@ def battle():
     print("2. Attempt a graceful shutdown → (Risk: AI triggers emergency protocols)")
     print("")
     print("The outcome depends on your choice — and your coding skill.")
-    sleep(3)
+    sleep(1)
     choice = options(2)
     if choice == 1:
         win()
