@@ -1,6 +1,5 @@
 from time import sleep
 from functions import clear_terminal, theEnd
-from functions import choices as options
 def joke():
     clear_terminal()
     print("You: 'Hey KNIGHT.GPT, what did the robot say after a long day?")

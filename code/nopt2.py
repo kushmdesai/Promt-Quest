@@ -1,6 +1,8 @@
 from time import sleep
 from functions import clear_terminal
 from functions import choices as options
+from nnopt1 import win
+from nnopt2 import lose
 def battle():
     clear_terminal()
     print("KNIGHT.GPT:")
@@ -37,6 +39,6 @@ def battle():
     sleep(3)
     choice = options(2)
     if choice == 1:
-        choice = 1
+        win()
     if choice == 2:
-        choice = 2
+        lose()
