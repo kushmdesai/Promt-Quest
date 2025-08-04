@@ -1,5 +1,7 @@
 from time import sleep
 from opt1 import scan
+from opt2 import introduce
+from opt3 import prot
 from functions import choices as options
 print("SYSTEM STATUS: BOOT COMPLETE.")
 print("Welcome, Prompt Engineer #404.")
@@ -27,6 +29,6 @@ choice = options(3)
 if choice == 1:
     scan()
 if choice == 2:
-    choice = 2
+    introduce()
 if choice == 3:
-    choice = 3    
+    prot()
