@@ -1,6 +1,8 @@
 from time import sleep
 from functions import clear_terminal
 from functions import choices as options
+from nopt5 import unplug
+from nopt6 import toastocracy
 def prot():
     clear_terminal()
     print("KNIGHT.GPT: 'Affirmative. Initiating rapid-prototype mode. Materials: salvaged motherboard, antimatter filament, and... half a croissant?'")
@@ -28,10 +30,10 @@ def prot():
     sleep(1)
     print("Should You:")
     sleep(1)
-    print("1.Follow the toaster’s wisdom")
-    print("2.Follow the toaster’s wisdom")
+    print("1. Unplug the Toaster to assert dominance")
+    print("2. Follow the toaster’s wisdom")
     choice = options(2)
     if choice == 1:
-        choice = 1
+        unplug()
     if choice == 2:
-        choice = 2
+        toastocracy()
