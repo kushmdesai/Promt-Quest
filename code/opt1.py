@@ -1,6 +1,8 @@
 from time import sleep
 from functions import clear_terminal
 from functions import choices as options
+from nopt1 import joke
+from nopt2 import battle
 def scan():
     clear_terminal()
     print("KNIGHT.GPT: ⚠️ ALERT! Threat detected: User identified as “Primary Source of System Instability.”")
@@ -30,6 +32,6 @@ def scan():
     print("2. Attempt to reprogram the Ai.  ")
     choice = options(2)
     if choice == 1:
-        choice = 1
+        joke()
     if choice == 2:
-        choice = 2
+        battle()

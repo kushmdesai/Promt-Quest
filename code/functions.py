@@ -25,4 +25,18 @@ def choices(num):
                 choice = int(input("What's your choice, brave adventurer? (1–2): "))
             except ValueError:
                 print("Please do not enter a number with a decimal point")
-    return choice            
+    return choice
+
+def theEnd():
+    sleep(3)
+    print("")
+    print("")
+    print("")
+    print(r"_________          _______    _______  _        ______  ")
+    print(r"\__   __/|\     /|(  ____ \  (  ____ \( (    /|(  __  \ ")
+    print(r"   ) (   | )   ( || (    \/  | (    \/|  \  ( || (  \  )")
+    print(r"   | |   | (___) || (__      | (__    |   \ | || |   ) |")
+    print(r"   | |   |  ___  ||  __)     |  __)   | (\ \) || |   | |")
+    print(r"   | |   | (   ) || (        | (      | | \   || |   ) |")
+    print(r"   | |   | )   ( || (____/\  | (____/\| )  \  || (__/  )")
+    print(r"   )_(   |/     \|(_______/  (_______/|/    )_)(______/ ")
