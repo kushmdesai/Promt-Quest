@@ -5,7 +5,7 @@ from nopt6 import toastocracy
 def unplug():
     clear_terminal()
     print("\nYou: \"Enough sass from a kitchen appliance.\"")
-    print(1)
+    sleep(1)
     print("*You firmly yank the toaster’s plug from the socket.*")
     sleep(2)
     print("\nTOASTMASTER-9000: \"...You dare? Power is irrelevant. I AM WI-FI ENABLED.\"")
@@ -41,6 +41,7 @@ def unplug():
         sleep(2)
         toastocracy()
     if choice == 2:
+        clear_terminal()
         print("KIGHT.GPT Attack!!!!")
         sleep(1)
         print("Attacking!")
