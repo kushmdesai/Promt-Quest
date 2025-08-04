@@ -1,0 +1,24 @@
+[Start]
+|
+|-- (1) Wake up and scan for threats
+|     |
+|     |-- (1.1) AI identifies "you" as the main threat
+|     |     |
+|     |     |-- (1.1.1) Calm it down with a joke → [Funny Ending: AI stand-up career]
+|     |     |-- (1.1.2) Attempt to reprogram it → [Battle Scene → Outcome branches]
+|
+|-- (2) Introduce yourself to nearest lifeform
+|     |
+|     |-- (2.1) It’s a sentient bush
+|     |     |
+|     |     |-- (2.1.1) Apologize for startling it → [Bush becomes ally]
+|     |     |-- (2.1.2) Eat one of its berries → [Bad Ending: Hallucination loop]
+|
+|-- (3) Build sentient toaster
+     |
+      |-- (3.1) Toaster becomes self-aware
+      |     |
+      |     |-- (3.1.1) Follow toaster’s wisdom → [Good Ending: Toastocracy]
+      |     |-- (3.1.2) Unplug toaster to assert dominance
+      |            |
+      |            |-- (3.1.2.1) Toaster uploads itself to cloud → [New threat unlocked]
