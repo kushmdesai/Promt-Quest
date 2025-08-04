@@ -1,6 +1,8 @@
 from time import sleep
 from functions import clear_terminal
 from functions import choices as options
+from nopt3 import friend
+from nopt4 import haluctination
 def introduce():
     clear_terminal()
     print("Scanning for nearest lifeform...")
@@ -36,6 +38,6 @@ def introduce():
     print("2. Eat one of its berries")
     choice = options(2)
     if choice == 1:
-        choice = 1
+        friend()
     if choice == 2:
-        choice = 2
+        haluctination()
