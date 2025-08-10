@@ -11,18 +11,16 @@ Promt-Quest is an interactive fiction game that takes you on a journey through a
 To play Promt-Quest, follow these simple steps:
 
 1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/kushmdesai/Promt-Quest.git
-    ```
+
+    Download The .exe file from [Github](https://github.com/kushmdesai/promt-quest/releases)
 
 2.  **Navigate to the project directory:**
-    ```bash
-    cd Promt-Quest
-    ```
+    
+    Navigate to the location of .exe file or add it to env vars to use it from anywhere
 
 3.  **Run the game:**
     ```bash
-    python promt_quest/start.py
+    . ./start.exe
     ```
 
 That's it! You're ready to start your adventure.
